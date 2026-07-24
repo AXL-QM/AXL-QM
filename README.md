@@ -1,16 +1,37 @@
-## Hi there 👋
+# 硬件学习项目记录
+## 项目列表
+1. STM32L151RET6 开发板
+2. STM32G474RET6 开发板
+3. 0-20mA电流输出板
 
-<!--
-**AXL-QM/AXL-QM** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# PCB-Projects 硬件学习项目记录
 
-Here are some ideas to get you started:
+## 📖 关于本仓库
+个人自学硬件/PCB设计的项目开源仓库，记录从0开始转行嵌入式/硬件工程师的学习过程和项目作品。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**背景**：城乡规划专业在读，非科班自学硬件，目标成为一名硬件工程师，从PCB Layout切入，逐步向嵌入式/硬件工程师发展。
+
+## 📂 项目列表
+| 项目名称 | 状态 | 简介 |
+|----------|------|------|
+| STM32L151RET6 开发板 | ✅ 已完成打样焊接 | 2层板设计的STM32L151开发板，集成LoRa模块、LCD显示屏、温湿度传感器与光敏电路 |
+| STM32G474RET6 开发板 | ✅ 已完成打样焊接 | 2层板设计的STM32G474开发板，板载外置FLASH、蜂鸣器、旋转编码器 |
+| 0-20mA 电流输出板 | ✅ 已完成打样焊接 | 0-20mA电流输出模块 |
+
+## 🎯 学习路线
+- ✅ PCB设计入门（立创EDA）：中国电子学会PCB初级工程师认证、嘉立创PCB设计职业技术证书
+- ✅ 51单片机入门：GPIO、定时器、中断、串口
+- 🔄 STM32入门：HAL库 + CubeMX，学习江科大stm32教程，测试验证自制开发板功能
+- 🔜 PCB进阶：4层板、EMC、高速信号、电源完整性
+- 🔜 硬件全流程：原理图设计、元器件选型、硬件调试
+- 🔜 作品集项目：环境监测板、DC-DC电源、蓝牙小车
+
+## 🛠️ 技能栈
+- **PCB设计**：立创EDA，2/4层板设计，可制造性设计
+- **单片机**：51单片机、STM32（HAL库 + CubeMX）
+- **编程语言**：C语言（嵌入式开发方向）
+- **硬件技能**：手工焊接（0402/0603贴片、QFP芯片）、硬件调试、万用表使用
+- **软件工具**：Keil MDK、STM32CubeMX、串口调试助手
+
+## 📝 说明
+所有项目均为个人学习设计，诚心欢迎交流指正。
