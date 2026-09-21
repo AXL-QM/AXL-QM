@@ -4,8 +4,8 @@
 
 ### 📌 项目作品
 
-- [STM32L151-DevBoard](https://github.com/AXL-QM/STM32L151-DevBoard) — STM32L151 核心板，2层板
 - [STM32L151-EnvMonitor](https://github.com/AXL-QM/stm32l151-env-monitor) — 环境监测系统固件（C/标准库），TFT 实时显示、W25Q64 数据日志、LoRa 驱动
+- [STM32L151-DevBoard](https://github.com/AXL-QM/STM32L151-DevBoard) — STM32L151 核心板，2层板
 - [STM32G474-DevBoard](https://github.com/AXL-QM/STM32G474-DevBoard) — STM32G474 核心板，Cortex-M4F
 - [Current-Loop-0-20mA](https://github.com/AXL-QM/Current-Loop-0-20mA) — 0-20mA 电流输出模块
 
@@ -14,8 +14,8 @@
 ## 📂 项目列表
 | 项目名称 | 状态 | 简介 |
 |----------|------|------|
+| STM32L151 环境监测系统 | 🔄 固件开发中 | 裸机固件（约2800行，AI辅助开发）：温湿度/光照采集、TFT实时显示、W25Q64环形数据日志（掉电保护+开机自检），LoRa收发待实测 |
 | STM32L151RET6 开发板 | ✅ 已完成打样焊接 | 2层板设计的STM32L151开发板，集成LoRa模块、LCD显示屏、温湿度传感器与光敏电路 |
-| STM32L151 环境监测系统 | 🔄 固件开发中 | 自研裸机固件（约2800行）：温湿度/光照采集、TFT实时显示、W25Q64环形数据日志（掉电保护+开机自检），LoRa收发待实测 |
 | STM32G474RET6 开发板 | ✅ 已完成打样焊接 | 2层板设计的STM32G474开发板，板载外置FLASH、蜂鸣器、旋转编码器 |
 | 0-20mA 电流输出板 | ✅ 已完成打样焊接 | 0-20mA电流输出模块 |
 
@@ -39,4 +39,5 @@
 - **软件工具**：立创EDA、CAD、Keil MDK、串口调试助手、ST-LINK Utility
 
 ## 📝 说明
-所有项目均为个人学习设计，诚心欢迎交流指正。
+所有项目均为个人学习设计，硬件设计与调试为本人完成；固件部分借助 AI 工具辅助开发，
+本人负责方案定义、接口约定、代码审查与上机验证。诚心欢迎交流指正。
