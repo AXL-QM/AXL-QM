@@ -5,6 +5,7 @@
 ### 📌 项目作品
 
 - [STM32L151-DevBoard](https://github.com/AXL-QM/STM32L151-DevBoard) — STM32L151 核心板，2层板
+- [STM32L151-EnvMonitor](https://github.com/AXL-QM/stm32l151-env-monitor) — 环境监测系统固件（C/标准库），TFT 实时显示、W25Q64 数据日志、LoRa 驱动
 - [STM32G474-DevBoard](https://github.com/AXL-QM/STM32G474-DevBoard) — STM32G474 核心板，Cortex-M4F
 - [Current-Loop-0-20mA](https://github.com/AXL-QM/Current-Loop-0-20mA) — 0-20mA 电流输出模块
 
@@ -14,6 +15,7 @@
 | 项目名称 | 状态 | 简介 |
 |----------|------|------|
 | STM32L151RET6 开发板 | ✅ 已完成打样焊接 | 2层板设计的STM32L151开发板，集成LoRa模块、LCD显示屏、温湿度传感器与光敏电路 |
+| STM32L151 环境监测系统 | 🔄 固件开发中 | 自研裸机固件（约2800行）：温湿度/光照采集、TFT实时显示、W25Q64环形数据日志（掉电保护+开机自检），LoRa收发待实测 |
 | STM32G474RET6 开发板 | ✅ 已完成打样焊接 | 2层板设计的STM32G474开发板，板载外置FLASH、蜂鸣器、旋转编码器 |
 | 0-20mA 电流输出板 | ✅ 已完成打样焊接 | 0-20mA电流输出模块 |
 
@@ -23,7 +25,8 @@
 - ✅ STM32入门：标准库，学习江科大stm32教程，测试验证自制开发板功能
 - 🔜 PCB进阶：4层板、EMC、高速信号、电源完整性
 - 🔜 硬件全流程：原理图设计、元器件选型、硬件调试
-- 🔜 作品集项目：环境监测板、DC-DC电源、蓝牙小车
+- 🔄 STM32 驱动开发：完成环境监测系统固件（TFT/温湿度/光照/Flash数据日志），LoRa收发待实测
+- 🔜 作品集项目：DC-DC电源、蓝牙小车
 
 ## 🛠️ 技能栈
 - **PCB设计**：立创EDA，2板设计，可制造性设计
